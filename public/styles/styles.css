@@ -11,7 +11,7 @@ body {
 }
 
 .search-box {
-  margin-top: 100px; 
+  margin-top: 60px; 
   width: 80%; 
   max-width: 500px; 
   padding-right: 10px; 
@@ -66,20 +66,28 @@ body {
 }
 
 .fav-book-container {
-  margin-top: 60px; 
+  margin-top: 50px; 
   /* border-radius: 25px !important;  */
 }
 
 #fav-books-title {
+  margin-top: 10px;
   margin-right: auto; 
   margin-left: auto; 
-  font-size: 30pt; 
-  font-family: 'Gupter', serif; 
+  font-size: 20pt; 
 }
 
 #currently-reading-title {
+  margin-top: 10px;
+  font-size: 20pt;
   margin-right: auto; 
   margin-left: auto; 
+}
+
+body {
+  background-color: rgba(238, 238, 238, 0.5) !important;
+  background-image: url(../assets/img/books.png);
+  background-blend-mode: color;
 }
 
 #edit-progress {
@@ -401,6 +409,9 @@ div.card-header {
   margin-left: auto; 
   display: block;
   cursor: pointer;  
+  border-radius: 20px;
+  border: 1px darkgray solid; 
+  border: 1px 
 }
 
 #allBooks {
