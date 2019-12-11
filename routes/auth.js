@@ -18,18 +18,19 @@ module.exports = function (app, passport) {
   }));
 
   function isLoggedIn(req, res, next) {
+    
     if (req.isAuthenticated()) {
-      console.log("req.user is successful");
+    
       console.log(req.user.id);
 
-      // authcontroller search 
-      authController.search(req, res); 
-
+      res.redirect('/signin');
       return next();
+
+      
 
     } else {
 
-      res.redirect('/signin');
+      
 
     }
 
