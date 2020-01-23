@@ -6,12 +6,13 @@
 }
 
 body {
-  background-image: url(../assets/img/books.png);
+  /* background-image: url(../assets/img/books.png); */
   /* background-repeat: no-repeat;  */
+  background-color: RGB(215, 226, 224); 
 }
 
 .search-box {
-  margin-top: 60px; 
+  margin-top: 40px; 
   width: 80%; 
   max-width: 500px; 
   padding-right: 10px; 
@@ -84,9 +85,8 @@ body {
   margin-left: auto; 
 }
 
-body {
+#home {
   background-color: rgba(238, 238, 238, 0.5) !important;
-  background-image: url(../assets/img/books.png);
   background-blend-mode: color;
 }
 
