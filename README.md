@@ -1,23 +1,32 @@
-#Bookworm
-Bookworm is a online app that keeps track of books you've read, are reading, or would like to in the future.  You can keep track of your progress in a book, take notes on what you're reading as well as search for information on any book in the google books api to find something for future reading.
+# Bookworm 
+
+Bookworm full-stack web app using built with HTML5, CSS3, Bootstrap, Node.js, Express, Sequelize, and MySQL. It's aim is to allow users to keep their books, and any accompanying notes, in an authenticated account. 
+
 ## Getting Started
-Getting started is as easy as visiting our deployed site on heroku.  First time visitors are encouraged to register for an account [here](https://mysterious-meadow-98711.herokuapp.com/signup) to experience the full functionality of our website.  Although registering is not necessary and you can still search for new books to read, you just won't be able to save your progree and take notes on them.
 
-[Search for a book here!](https://mysterious-meadow-98711.herokuapp.com/search)
-##Search for a book!
-##Taking a note
-##Live Demo!
-##Future Development
-* Refining Search Results
-##Built With
-* [Node.js](https://nodejs.org/en/)
+To access Bookworm, you may visit the [deployed](https://mysterious-meadow-98711.herokuapp.com/) version of the site or visit the [repo](https://github.com/nexio-t/project2).
+
+## Demo
+
+Need a place to store all your books? Want to take and keep book notes in a private account? Enter Booknote, a web app to conveniently search, store, and note-take on your favorite books. 
+
+![bookworm-gif](./public/assets/img/Bookworm.gif)
+
+![bookworm-demo](./public/assets/img/Bookworm_userpage.png)
+
+## Built With
+* HTML5
+* CSS3
+* [Bootstrap](https://getbootstrap.com/)
 * [MySQL](https://www.mysql.com/)
-* [Handlebars](https://handlebarsjs.com/)
-* [Heroku](https://heroku.com/)
-* [Passport](http://www.passportjs.org/)
+* [Sequelize](https://sequelize.org/)
+* [Express](http://expressjs.com/)
+* [Node.js](https://nodejs.org/en/) 
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
+* [Passport](http://www.passportjs.org/) 
+* [Adobe XD](https://www.adobe.com/products/xd/details.html) 
 
-##Authors
-* [nexio-t](https://github.com/nexio-t)
-* [samuniz](https://github.com/samuniz)
-* [sampizzo](https://github.com/sampizzo)
-* [noho-glitch](https://github.com/noho-glitch)
+## Author
+
+* **Tomas Gear** - *https://github.com/nexio-t*
+
